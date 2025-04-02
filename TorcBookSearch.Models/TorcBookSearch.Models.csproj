@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AppConstants.cs~RF2eaf9cbb.TMP" />
+    <None Remove="Book.cs~RF2e9cbcb3.TMP" />
+  </ItemGroup>
+
+</Project>

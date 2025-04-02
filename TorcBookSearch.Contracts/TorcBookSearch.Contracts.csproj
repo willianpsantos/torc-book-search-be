@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IEntityQuery.cs~RF2ebfdfd1.TMP" />
+    <None Remove="Repositories\IRepository.cs~RF2fe8c1a6.TMP" />
+    <None Remove="UnitsOfWork\ISearchBooksUnitOfWork.cs~RF2ed588dc.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TorcBookSearch.Models\TorcBookSearch.Models.csproj" />
+  </ItemGroup>
+
+</Project>
