@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: torcbooksearchbe 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: torcbooksearchbe
+  template:
+    metadata:
+      labels:
+        app: torcbooksearchbe 
+    spec:
+      containers:
+        - name: torcbooksearchbe 
+          image: torccontainerregistry.azurecr.io/torcbooksearchbe
+          ports:
+          - containerPort: 8081
